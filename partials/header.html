@@ -32,8 +32,12 @@
 
     <!-- Íconos usuario y carrito -->
     <div class="d-flex align-items-center gap-2">
-      <!-- Aquí inyectaremos el estado del usuario -->
-      <span id="header-user" class="d-inline-block"></span>
+      <!-- Siempre dibujamos el icono de login por defecto -->
+      <span id="header-user" class="d-inline-block">
+        <a href="/pages/login.html" class="nav-link me-3">
+          <i class="bi bi-person fs-5"></i>
+        </a>
+      </span>
 
       <a href="#" class="nav-link position-relative">
         <i class="bi bi-cart fs-5"></i>
